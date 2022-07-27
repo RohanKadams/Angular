@@ -1,0 +1,23 @@
+.example-full-width {
+   
+    /* width: 30%;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%); */
+    align-items: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    
+  }
+  .button{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+  }
+  /* .example-full-width {
+    width: 50%;
+  } */

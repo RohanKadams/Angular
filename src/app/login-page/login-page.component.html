@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angular Web Applicaton</title>
+</head>
+<body>
+  <div  class="flex-container example-full-width" *ngIf="!logedIn">
+<div >
+  <mat-form-field appearance="fill">
+    <mat-label>Login Id</mat-label>
+    <input matInput placeholder="Email ID / Mobile Number " value="">
+  </mat-form-field>
+</div>
+<div >
+  <mat-form-field  appearance="fill">
+    <mat-label>Password</mat-label>
+    <input type="password" matInput placeholder="Password" value="">
+  </mat-form-field>
+</div>
+  <div  class="button">
+    <button mat-raised-button style="flex-shrink: 0"> Cancel</button>
+    <button mat-raised-button style="flex-shrink: 0" (click)="onSubmit()"> Login</button>
+  </div>
+</div>
+</body>
+</html>
+
+
